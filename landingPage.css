@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+html{
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: rgb(0, 0, 0);
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+}
+.nav ul{
+    padding: 10px;
+    /* margin-left: auto; */
+    display: flex;
+    align-items: center;
+}
+.nav ul li{
+    color: rgb(215, 215, 215);
+    margin: 0px 10px 0px 10px;
+    list-style: none;
+}
+.nav ul li:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.logo{
+    display: flex;
+    
+}
+.web-name{
+    color: rgb(215, 215, 215);
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.search{
+    padding: 10px;
+    margin: 10px 100px 10px 50px;
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    width: 20vw;
+    padding: 5px;
+    border-radius: 30px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-size: 20px;
+}
+.heading h2{
+    margin: 3px;
+}
+.light{
+    color: rgb(116, 116, 116);
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+}
+.shop1{
+    background-color: #323232; 
+    color: rgb(215, 215, 215);              
+    padding: 10px 20px;        
+    border: none;              
+    border-radius: 25px;        
+    cursor: pointer;           
+    font-size: 20px;
+    transition: transform 0.5s ease;
+}
+.shop1:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+    border-radius: 15px;
+    border: rgb(0, 0, 0) solid 2px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.gpu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 450px;
+}
+.gpu img{
+    margin: 90px;
+    border-radius: 30px;
+    transition: transform 0.5s ease;
+}
+.gputext {
+    background-color: rgb(0, 0, 0);
+    color: rgb(215, 215, 215);
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+.gpudesc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(215, 215, 215);
+    background-color: black;
+    height: 100px;
+}
+.gpudesc p{
+    width: 800px;
+    padding: 10px;
+}
+.gpu img:hover{
+    /* animation-delay: 5s; */
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+.cpu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+}
+.cpu img{
+    margin: 90px;
+    border-radius: 30px;
+    transition: transform 0.5s ease;
+}
+.cputext {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+.cpudesc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}
+.cpudesc p{
+    width: 800px;
+    padding: 10px;
+
+}
+.cpu img:hover{
+    /* animation-delay: 5s; */
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+.ram{
+    background-color: black;
+    color: rgb(215, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.ram p{
+    font-size: 20px;
+    padding: 10px;
+
+}
+.ram img{
+    margin-left: 90px;
+    border-radius: 30px;
+}
+.ramdesc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(215, 215, 215);
+    background-color: black;
+    height: 100px;
+}
+.ramdesc p{
+    width: 800px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.thin-line{
+    width: 50vw;
+    height: 1px;
+    background-color: rgb(109, 109, 109);
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 90px;
+}
+.shop{
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);              
+    padding: 10px 20px;        
+    border: none;              
+    border-radius: 25px;        
+    cursor: pointer;           
+    font-size: 20px;
+    transition: transform 0.5s ease;
+
+}
+.shop:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+    border-radius: 15px;
+    border: rgb(255, 255, 255) solid 2px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.footer{
+    background-color: rgb(59, 59, 59);
+    color: rgb(215, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
